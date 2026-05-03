@@ -5,7 +5,7 @@ models:
     columns:
       - name: customer_id
         tests: [unique, not_null]
-      - name: name
+      - name: customer_name
         tests: [not_null]
       - name: email
         tests: [not_null]
