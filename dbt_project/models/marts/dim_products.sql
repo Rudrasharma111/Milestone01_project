@@ -1,5 +1,4 @@
 {{ config(materialized='table') }}
-
 SELECT
     product_id,
     {{ clean_string('product_name') }} AS product_name,
